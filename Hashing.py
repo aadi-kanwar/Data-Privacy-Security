@@ -1,7 +1,5 @@
 # Concept & code taught : 09.01.2025
-# Hands on : 
-# The code below is an experiment on my own.
-
+# # The code below is an experiment on my own to demonstrate the working of hashing.
 import hashlib
 
 def hash_string(input_string):
