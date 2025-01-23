@@ -24,7 +24,8 @@ def caesar_cipher_decrypt(encrypted_text, shift):
     return decrypted_text
 
 # Example usage
-plain_text = "Ensure Data Availability!"
+# plain_text = "Ensure Data Availability!"
+plain_text = input("Enter the plain text: ")
 shift = 3  # Number of positions to shift for encryption
 
 print("Plain Text:", plain_text)

@@ -17,7 +17,8 @@ def caesar_cipher_decrypt(encrypted_text, shift):
     return caesar_cipher_encrypt(encrypted_text, -shift)  # Decrypt by shifting in the opposite direction
 
 # Example usage
-plain_text = "Hello, Confidential World!"
+# plain_text = "Hello, What an amazing day!"
+plain_text = input("Enter the plain text: ")
 shift = 3  # Number of positions to shift for encryption
 
 # Encrypt the plain text
